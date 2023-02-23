@@ -1,0 +1,98 @@
+* ul {
+    list-style-type: none;
+
+}
+
+* {
+    font-family: 'Alegreya', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-muted {
+    background-color: #edebeb;
+}
+
+header {
+
+    background-image: url(../img/bg-image-28.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.contact h1 {
+    font-size: 100px;
+    letter-spacing: 5px;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.title h2 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #f1f1f1;
+
+
+}
+
+.title h3 {
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+
+}
+
+.title2 h2 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #f1f1f1;
+}
+
+.title2 h3 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+
+}
+
+.parent {
+    position: relative;
+
+}
+
+.child {
+    position: absolute;
+    background-color: rgba(0, 195, 218, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 100%;
+    bottom: 0;
+    width: 92%;
+    opacity: 0;
+    padding-top: 1rem;
+}
+
+.parent:hover .child {
+    opacity: 1;
+    top: 0;
+    transition: all 1s ease-in-out;
+}
+
+.span{
+    color: #00c3da
+}
+.clinte-feadback{
+    border: solid 4px white
+}
+.img-clinte{
+    width: 100px;
+    border-radius: 50%;
+    transform: translatey(50%);
+}
